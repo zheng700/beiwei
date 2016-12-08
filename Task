@@ -1,0 +1,18 @@
+package task;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("haha,你的电脑中病毒了");
+Scanner in=new Scanner(System.in);
+int price;
+price=in.nextInt();
+//int price=in.nextInt();
+//double amount=in.nextDouble();
+System.out.println((int)((price-32.0)*5/9));
+	}
+
+}
